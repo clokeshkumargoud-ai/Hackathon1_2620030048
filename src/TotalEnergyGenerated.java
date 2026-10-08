@@ -14,3 +14,4 @@ public class TotalEnergyGenerated {
         System.out.println(calculateTotalEnergy(x,y));
     }
 }
+
