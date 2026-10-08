@@ -53,7 +53,7 @@ public class Student {
         System.out.println("Eligibility :"+ Eligibility);
         System.out.println("courseFee :"+ courseFee);
         System.out.println("Scholarship :"+ Scholarship);
-        System.out.println("totalFee :" + courseFee*Scholarship*courseCredit);
+        System.out.println("totalFee :" + (courseFee - (Scholarship*courseFee)));
     }
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
